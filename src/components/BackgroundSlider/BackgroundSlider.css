@@ -1,0 +1,18 @@
+.slide-list {
+    list-style: none;
+    display: inline-flex;
+}
+
+.slide-list li {
+    width: 100px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.slide-list li:hover {
+    outline: 2px solid #adacac
+}
+
+.slide-list li img {
+    width: 100%;
+}
