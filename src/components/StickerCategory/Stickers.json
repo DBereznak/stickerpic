@@ -1,0 +1,8 @@
+{
+    "categoryTitle": "Shapes",
+    "stickers": [
+        {"title": "square", "file": "./Stickers/Shapes/square.png"},
+        {"title": "circle", "file": "./Stickers/Shapes/circle.png"},
+        {"title": "triangle", "file": "./Stickers/Shapes/triangle.png"}
+    ]
+};

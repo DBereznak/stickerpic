@@ -2,6 +2,7 @@ import { useState } from 'react';
 import BackgroundSlider from './components/BackgroundSlider/BackgroundSlider';
 import StickerScene from './components/StickerScene/StickerScene';
 import './App.css';
+import StickerCategory from './components/StickerCategory/StickerCategory';
 
 
 function App() { 
@@ -16,8 +17,10 @@ function App() {
 
   return (
     <>
+      <StickerCategory />
       <BackgroundSlider />
       <StickerScene />
+
       <button onClick={downloadImage}>Download Scene</button>
     </>
   )

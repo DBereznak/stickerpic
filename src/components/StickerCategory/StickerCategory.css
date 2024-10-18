@@ -1,0 +1,24 @@
+.category {
+    & ul {
+        list-style: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .25s ease-in-out;
+    }
+
+    .show{
+        max-height: 300px;
+
+    }
+
+    .hide {
+        max-height: 0;
+    }
+    & h2{
+      font-size: 16px;  
+    }
+   & img {
+        height: 100px;
+        width: 100px;
+    }
+}
