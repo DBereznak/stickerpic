@@ -1,8 +1,8 @@
-import { useState } from 'react';
 import BackgroundSlider from './components/BackgroundSlider/BackgroundSlider';
 import StickerScene from './components/StickerScene/StickerScene';
 import './App.css';
 import StickerCategory from './components/StickerCategory/StickerCategory';
+import stickerData from './components/StickerCategory/Stickers.json';
 
 
 function App() { 
@@ -15,9 +15,10 @@ function App() {
     fakeLink.click();
   }
 
+  console.log(stickerData[0]);
   return (
     <>
-      <StickerCategory />
+      <StickerCategory stickerData={stickerData[0]}/>
       <BackgroundSlider />
       <StickerScene />
 
