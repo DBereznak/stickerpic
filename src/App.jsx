@@ -14,14 +14,19 @@ function App() {
     fakeLink.download = 'scene.png';
     fakeLink.click();
   }
-
-  console.log(stickerData[0]);
   return (
     <>
-      <StickerCategory stickerData={stickerData[0]}/>
-      <BackgroundSlider />
+    <div className='frame'>
+      <div className='stickers'>
+      {stickerData.map((category) => (
+      <StickerCategory stickerData={category} key={category.categoryTitle}/>
+     ))}
+      </div>
+     <div className='canvas'>
+     <BackgroundSlider />
       <StickerScene />
-
+     </div>
+    </div>
       <button onClick={downloadImage}>Download Scene</button>
     </>
   )

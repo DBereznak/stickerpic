@@ -1,6 +1,12 @@
+.backgrounds {
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .slide-list {
     list-style: none;
-    display: inline-flex;
+    display: flex;
+    padding: 0;
 }
 
 .slide-list li {

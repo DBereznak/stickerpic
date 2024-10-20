@@ -8,8 +8,7 @@ function BackgroundSlider() {
     const dispatch = useDispatch();
     
     return (
-        <div>
-            <h2>Slider</h2>
+        <div className='backgrounds'>
             <ul className='slide-list'>
             {
                 data.Slides.map((slide) => (

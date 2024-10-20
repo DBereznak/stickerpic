@@ -5,5 +5,14 @@
         {"title": "circle", "file": "./Stickers/Shapes/circle.png"},
         {"title": "triangle", "file": "./Stickers/Shapes/triangle.png"}
     ]
+},
+{
+    "categoryTitle": "Emojiis",
+    "stickers": [
+        {"title": "smile", "file": "./Stickers/Emojiis/smile.png"},
+        {"title": "cool", "file": "./Stickers/Emojiis/cool.png"},
+        {"title": "kiss", "file": "./Stickers/Emojiis/kiss.png"},
+        {"title": "mad", "file": "./Stickers/Emojiis/mad.png"}
+    ]
 }
 ]
